@@ -11,8 +11,12 @@ Week 1 (12–18 Jan) – Foundation and project scaffolding
     Installed:
     - VS 2026 (including .NET10)
     - AZ CLI 2.80.0
-  - [ ] Day 2: Explore AZ-204 Module 1 (Develop code for Azure App Service and Functions) on Microsoft Learn.
-  - [ ] Day 3: Create a simple ASP.NET Core Web API project (minimal API or controllers) and run locally.
+  - [x] Day 2: Explore AZ-204 Module 1 (Develop code for Azure App Service and Functions) on Microsoft Learn.  
+    - Started `Implemnt Azure App Service web apps - Explore Azure App Service` module.
+  - [x] Day 3: Create a simple ASP.NET Core Web API project (minimal API or controllers) and run locally.
+    - Completed example and module from Day 2
+    - Created SimpleApi project with CRUD scaffold for "ManufacturingStockItem"
+    - Completed `Implemnt Azure App Service web apps - Configure web app settings` module.
   - [ ] Day 4: Create an Azure Cosmos DB account (SQL API) in the free tier.
   - [ ] Day 5: Add a basic data model (e.g., Task) and a simple Cosmos DB repository interface.
   - [ ] Day 6: Wire up Cosmos DB client in your API (DI + CosmosClient).
