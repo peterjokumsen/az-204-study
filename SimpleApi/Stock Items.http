@@ -1,0 +1,40 @@
+### Select the `SimpleApi` environment in the REST Client to provide `SimpleApi_HostAddress` and `id`
+
+### Get all stock items
+# @name getAll
+GET {{SimpleApi_HostAddress}}/stock-items
+Accept: application/json
+
+###
+
+### Get single stock item by id
+# Replace the {{id}} placeholder with a real GUID returned from the POST or the initial dataset
+GET {{SimpleApi_HostAddress}}/stock-items/7c5cf7de-99bb-4a62-b2b2-6de66020fadb
+Accept: application/json
+
+###
+
+### Add a new stock item
+POST {{SimpleApi_HostAddress}}/stock-items
+Content-Type: application/json
+
+{
+  "partNumber": "PN-004",
+  "name": "Widget D",
+  "quantityAvailable": 20
+}
+
+###
+
+### Update existing stock item
+# Replace {{id}} with an existing item's GUID
+PUT {{SimpleApi_HostAddress}}/stock-items/7c5cf7de-99bb-4a62-b2b2-6de66020fadb
+Content-Type: application/json
+
+{
+  "partNumber": "PN-001",
+  "name": "Widget A - Updated",
+  "quantityAvailable": 151
+}
+
+###

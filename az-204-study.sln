@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11408.102 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi", "SimpleApi\SimpleApi.csproj", "{92E7644B-0490-4D69-AC66-0496BC6715DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{F6F607CA-AF11-46DA-AFEA-DBF745FA3701}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92E7644B-0490-4D69-AC66-0496BC6715DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E7644B-0490-4D69-AC66-0496BC6715DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E7644B-0490-4D69-AC66-0496BC6715DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E7644B-0490-4D69-AC66-0496BC6715DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBA2EF15-1EBE-4046-9709-D01E97ECA204}
+	EndGlobalSection
+EndGlobal
